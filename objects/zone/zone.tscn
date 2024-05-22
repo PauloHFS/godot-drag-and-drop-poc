@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbn6jpngudrwa"]
+
+[ext_resource type="Script" path="res://objects/zone/zone.gd" id="1_idfck"]
+
+[node name="Zone" type="TextureRect" groups=["zones"]]
+offset_right = 100.0
+offset_bottom = 100.0
+expand_mode = 1
+script = ExtResource("1_idfck")
+
+[node name="Panel" type="Panel" parent="."]
+show_behind_parent = true
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+mouse_filter = 2
